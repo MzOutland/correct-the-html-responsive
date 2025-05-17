@@ -160,7 +160,11 @@ hr {
 }
 
 .footer {
-	text-align: center;
+	background-color: #444;
+  	color: #fff;
+  	padding: 2rem 1rem;
+  	text-align: center;
+  	font-size: 0.9rem;;
 }
 
 @media (min-width: 800px) {
@@ -170,11 +174,19 @@ hr {
 		align-items: center;
 	}
 
+	.container {
+    	display: flex;
+    	flex-direction: row;
+    	gap: 1.6rem;
+    	align-items: flex-start;
+    	flex-wrap: nowrap;
+  }
+
 	.main-article {
-		width: 60%;
-		border-radius: 0.6rem;
-		margin: 0;
-	}
+    width: 60%;
+    border-radius: 0.6rem;
+    margin: 0;
+  }
 
 	.main-sidebar {
 		width: 40%;
